@@ -16,4 +16,4 @@ COPY ./src .
 EXPOSE 80
 
 # Run app.py when the container launches
-CMD ["python", "app.py"]
+#CMD ["python", "app.py"]
