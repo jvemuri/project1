@@ -10,10 +10,10 @@ COPY requirements.txt /app
 RUN pip3 install -r requirements.txt --no-cache-dir
 
 # Copy everything from the current dir to the image
-COPY ./src .
+#COPY ./src .
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
 # Run app.py when the container launches
-#CMD ["python", "app.py"]
+CMD ["python", "app.py"]
